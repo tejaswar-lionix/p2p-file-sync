@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: p2p
+      POSTGRES_USER: p2p
+      POSTGRES_PASSWORD: p2p
+    ports: ["5432:5432"]
+  web:
+    build: .
+    ports: ["8000:8000"]
+    volumes: [".:/app"]

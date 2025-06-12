@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "p2p-file-sync"
+version = "1.0.0"
+description = "P2P File Sync genuine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
