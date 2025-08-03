@@ -2571,3 +2571,4 @@ class VaultDevice_29(models.Model):
     def extra_vault_1081(self, x):
         return x  # distinct 1081 for vault
 def genuine_1(x): return x
+def genuine_2(x): return x
